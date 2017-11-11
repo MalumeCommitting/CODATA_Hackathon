@@ -527,7 +527,8 @@ require ('amaranthgroups.php');
                     </thead>
                     <tbody>
                     <?php
-                    foreach ($amaranths as $amaranth) {
+                    foreach ($amaranths as $key => $amaranth) {
+                        echo '<tr>';
                         echo '<td>' . $amaranth['name'] . '</td>';
                         echo '<td>' . $amaranth['category'] . '</td>';
                         echo '<td>' . $amaranth['location'] . '</td>';

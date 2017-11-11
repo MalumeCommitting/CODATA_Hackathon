@@ -12,7 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
     "cache-control: no-cache",
-    "postman-token: d509590f-cccb-0bc6-bc9d-fc9aa96ccb68"
+    "postman-token: 5c6703b4-643d-8271-3e3e-6443f2ca8383"
   ),
 ));
 
@@ -25,6 +25,6 @@ if ($err) {
   echo "cURL Error #:" . $err;
 } else {
     $data = json_decode($response, true);
-    $amaranths = $data["rows"];
+    $amaranths = $data['data'];
 }
  ?>
