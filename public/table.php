@@ -78,7 +78,7 @@ require ('amaranthgroups.php');
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+                                <a href="index.html" class="navbar-brand"><img src="assets/img/logo1.png" alt=""></a>
                     
                             </header>
                     
@@ -135,16 +135,7 @@ require ('amaranthgroups.php');
                                 <ul class="nav navbar-nav">
                                     <li><a href="dashboard.html">Dashboard</a></li>
                                     <li class="active"><a href="table.php">Tables</a></li>
-                                    <li class='dropdown '>
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                            Form Elements <b class="caret"></b>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="form-general.html">General</a></li>
-                                            <li><a href="form-validation.html">Validation</a></li>
-                                            <li><a href="form-wysiwyg.html">WYSIWYG</a></li>
-                                            <li><a href="form-wizard.html">Wizard &amp; File Upload</a></li>
-                                        </ul>
+                                    
                                     </li>
                                 </ul>
                                 <!-- /.nav -->
